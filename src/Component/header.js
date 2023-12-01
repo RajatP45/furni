@@ -21,8 +21,8 @@ function header() {
             </li>
             <li><Link to="/about" class="nav-link">About us</Link></li>
             <li><Link to="/shop" class="nav-link">Shop</Link></li>
-            <li><Link to="/services" class="nav-link">Services</Link></li>
             <li><Link to="/blog" class="nav-link">Blog</Link></li>
+            <li><Link to="/services" class="nav-link">Services</Link></li>
             <li><Link to="/contact" class="nav-link">Contact us</Link></li>
         </ul>
 

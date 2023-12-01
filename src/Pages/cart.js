@@ -61,7 +61,7 @@ export default function cart() {
                                   </div>
                                   <input type="text" class="form-control text-center quantity-amount" value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" />
                                   <div class="input-group-append">
-                                    <button class="btn btn-outline-black increase" type="button">&plus;</button>
+                                    <button class="btn btn-outline-black increase" type="button">+</button>
                                   </div>
                                 </div>
             
@@ -85,7 +85,7 @@ export default function cart() {
                                   </div>
                                   <input type="text" class="form-control text-center quantity-amount" value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" />
                                   <div class="input-group-append">
-                                    <button class="btn btn-outline-black increase" type="button">&plus;</button>
+                                    <button class="btn btn-outline-black increase" type="button">+</button>
                                   </div>
                                 </div>
             

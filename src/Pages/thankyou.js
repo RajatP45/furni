@@ -23,9 +23,6 @@ export default function thankyou() {
 				</div>
 			</div>
 		{/* <!-- End Hero Section --> */}
-
-		
-
 		<div class="untree_co-section">
     <div class="container">
       <div class="row">
