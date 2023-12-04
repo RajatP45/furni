@@ -3,6 +3,7 @@ import Header from '../Component/header';
 import Footer from '../Component/footer';
 import couch from '../assets/images/couch.png';
 import product1 from '../assets/images/product-1.png';
+import Slider from '../Component/slider';
 // import Slider from '../Component/slider';
 
 function home() {
@@ -238,14 +239,16 @@ function home() {
 				</div>
 			</div>
 		</div>
+
 		{/* <!-- End Popular Product --> */}
 
 		
         {/* <!-- Start Testimonial Slider --> */}
 	
 		{/* <!-- End Testimonial Slider --> */}
-        {/* <Slider /> */}
+        <Slider />
 		{/* <!-- Start Blog Section --> */}
+
 		<div class="blog-section">
 			<div class="container">
 				<div class="row mb-5">
@@ -302,7 +305,7 @@ function home() {
 			</div>
 		</div>
 		{/* <!-- End Blog Section -->	 */}
-
+	
       <Footer />
     </>
   )

@@ -417,8 +417,8 @@ a {
       transform: translate(-50%, -50%);
       z-index: -1; }
 
-.testimonial-section {
-  padding: 3rem 0 7rem 0; }
+/* .testimonial-section {
+  padding: 3rem 0 7rem 0; } */
 
 .testimonial-slider-wrap {
   position: relative; }

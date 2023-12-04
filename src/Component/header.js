@@ -27,7 +27,7 @@ function header() {
         </ul>
 
         <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
-            <li><Link to="/" class="nav-link"><img src={imagePath} /></Link></li>
+            <li><Link to="/login" class="nav-link"><img src={imagePath} /></Link></li>
             <li><Link to="/cart" class="nav-link"><img src={imagePath1} /></Link></li>
         </ul>
     </div>

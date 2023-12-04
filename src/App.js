@@ -9,6 +9,8 @@ import Contact from './Pages/contact';
 import Cart from './Pages/cart';
 import Checkout from './Pages/checkout';
 import Thankyou from './Pages/thankyou';
+import Login from './Pages/login';
+import Signup from './Pages/signup';
  
 function App() {
   return (
@@ -23,7 +25,8 @@ function App() {
         <Route exact path='/cart' element={<Cart />} />
         <Route exact path='/checkout' element={<Checkout/>} />
         <Route exact path='/thankyou' element={<Thankyou/>} />
-
+        <Route exact path='/login' element={<Login />} />
+        <Route exact path='/signup' element={<Signup />} />
       </Routes>
     </BrowserRouter>
   );

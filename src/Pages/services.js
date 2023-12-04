@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Component/header';
 import Footer from '../Component/footer';
+import Slider from '../Component/slider';
 
 export default function services() {
   return (
@@ -177,7 +178,7 @@ export default function services() {
 			</div>
 		</div>
 		{/* <!-- End Product Section --> */}
-
+    <Slider />
     <Footer />
     </>
   )

@@ -1,12 +1,12 @@
 import React from 'react'
 import Header from '../Component/header';
 import Footer from '../Component/footer';
+import Slider from '../Component/slider';
 
 function blog() {
   return (
     <>
     <Header />
-   
 		{/* <!-- Start Hero Section --> */}
 			<div class="hero">
 				<div class="container">
@@ -27,15 +27,10 @@ function blog() {
 				</div>
 			</div>
 		{/* <!-- End Hero Section --> */}
-
-		
-
 		{/* <!-- Start Blog Section --> */}
 		<div class="blog-section">
 			<div class="container">
-				
 				<div class="row">
-
 					<div class="col-12 col-sm-6 col-md-4 mb-5">
 						<div class="post-entry">
 							<a href="#" class="post-thumbnail">
@@ -48,7 +43,6 @@ function blog() {
 							</div>
 						</div>
 					</div>
-
 					<div class="col-12 col-sm-6 col-md-4 mb-5">
 						<div class="post-entry">
 							<a href="#" class="post-thumbnail">
@@ -61,7 +55,6 @@ function blog() {
 							</div>
 						</div>
 					</div>
-
 					<div class="col-12 col-sm-6 col-md-4 mb-5">
 						<div class="post-entry">
 							<a href="#" class="post-thumbnail">
@@ -74,7 +67,6 @@ function blog() {
 							</div>
 						</div>
 					</div>
-
 					<div class="col-12 col-sm-6 col-md-4 mb-5">
 						<div class="post-entry">
 							<a href="#" class="post-thumbnail">
@@ -139,7 +131,6 @@ function blog() {
 							</div>
 						</div>
 					</div>
-
 					<div class="col-12 col-sm-6 col-md-4 mb-5">
 						<div class="post-entry">
 							<a href="#" class="post-thumbnail">
@@ -157,7 +148,7 @@ function blog() {
 			</div>
 		</div>
 		{/* <!-- End Blog Section -->	 */}
-
+      <Slider />
     <Footer />
     </>
   )

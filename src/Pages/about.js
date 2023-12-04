@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Component/header';
 import Footer from '../Component/footer';
+import Slider from '../Component/slider';
 
 export default function about() {
   return (
@@ -154,6 +155,7 @@ export default function about() {
 			</div>
 		</div>
 		{/* <!-- End Team Section --> */}
+		<Slider />
 
     <Footer />
     </>
